@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+.flag-icon {
+    line-height: 2em !important;
+    width: 2em !important;
+}
+
+.loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.8) url("../img/loader.gif") center no-repeat;
+    /* background: rgba(255, 255, 255, 0.8) url("../img/loader.gif") center no-repeat; */
+}
+
+html,
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    /* background-color: #daddfc; */
+    background-color: #383838;
+    color: white;
+}
+
+.text-cl-title {
+    /* color: #fc997c; */
+    /* color: #396eb0; */
+    color: white;
+    /* -webkit-text-stroke: 0.px black; */
+}
+
+.card-header {
+    /* border-bottom-color: #396eb0; */
+    border-bottom-color: white;
+}
+
+.text-cl {
+    color: #fc997c !important;
+}
+
+.card,
+.card .card-header {
+    background-color: #2a2a2a !important;
+    /* background-color: #f1ded9 !important; */
+}
